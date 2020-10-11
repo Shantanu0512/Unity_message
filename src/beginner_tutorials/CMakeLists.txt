@@ -56,9 +56,6 @@ add_executable(add_two_ints_client src/add_two_ints_client.cpp)
 target_link_libraries(add_two_ints_client ${catkin_LIBRARIES})
 add_dependencies(add_two_ints_client beginner_tutorials_gencpp)
 
-add_executable(talk src/talk.cpp)
-target_link_libraries(talk ${catkin_LIBRARIES})
-add_dependencies(talk beginner_tutorials_gencpp)
 
 
 
