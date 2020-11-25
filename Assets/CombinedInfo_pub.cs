@@ -27,7 +27,7 @@ namespace ROSBridgeLib {
 		}  
 		
 		public static string GetMessageType() {
-			return "beginner_tutorials/CombinedInfo";
+			return "beginner_tutorials/msg/CombinedInfo";
 		}
         public new static ROSBridgeMsg ParseMessage(JSONNode msg) {
         return new CombinedInfo(msg);
